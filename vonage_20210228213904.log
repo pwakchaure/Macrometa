@@ -1,0 +1,82 @@
+2021-02-28 21:39:04,263 root::test_create_conversation() [INFO] - Creating the conversation
+2021-02-28 21:39:04,264 root::test_create_conversation() [INFO] - Checking POST request response is 200
+2021-02-28 21:39:04,264 root::test_create_conversation() [INFO] - Checking id from POST request response
+2021-02-28 21:39:04,264 root::test_create_conversation() [INFO] - Creation of conversation completed successfully
+2021-02-28 21:39:04,270 root::test_list_conversations() [INFO] - Listing the conversations
+2021-02-28 21:39:04,271 root::test_list_conversations() [INFO] - Checking GET request response is 200
+2021-02-28 21:39:04,271 root::test_list_conversations() [INFO] - Checking 'count' from response json
+2021-02-28 21:39:04,271 root::test_list_conversations() [INFO] - Listing of conversations completed successfully
+2021-02-28 21:39:04,274 root::test_update_conversation() [INFO] - Updating the conversation
+2021-02-28 21:39:04,276 root::test_update_conversation() [INFO] - Checking PUT request response is 200
+2021-02-28 21:39:04,276 root::test_update_conversation() [INFO] - Checking 'id' from response json
+2021-02-28 21:39:04,276 root::test_update_conversation() [INFO] - Updation of conversation completed successfully
+2021-02-28 21:39:04,278 root::test_retrieve_conversation() [INFO] - Retrieving the conversation
+2021-02-28 21:39:04,279 root::test_retrieve_conversation() [INFO] - Checking GET request response is 200
+2021-02-28 21:39:04,279 root::test_retrieve_conversation() [INFO] - Checking the 'name' of the conversation in response json
+2021-02-28 21:39:04,279 root::test_retrieve_conversation() [INFO] - Retrieving of the conversation completed successfully
+2021-02-28 21:39:04,282 root::test_delete_conversation() [INFO] - Deleting the conversation
+2021-02-28 21:39:04,284 root::test_delete_conversation() [INFO] - Checking DELETE request response is 200
+2021-02-28 21:39:04,284 root::test_delete_conversation() [INFO] - Successfully deleted the conversation
+2021-02-28 21:39:04,286 root::test_record_conversation() [INFO] - Recording the conversation
+2021-02-28 21:39:04,297 root::test_record_conversation() [INFO] - Checking PUT request response is 200/404/400
+2021-02-28 21:39:04,297 root::test_record_conversation() [INFO] - Successfully recorded conversation
+2021-02-28 21:39:04,304 root::test_list_users() [INFO] - Listing the users
+2021-02-28 21:39:04,307 root::test_list_users() [INFO] - Checking GET request response is 200
+2021-02-28 21:39:04,307 root::test_list_users() [INFO] - Checking 'my_user_name' in response json
+2021-02-28 21:39:04,307 root::test_list_users() [INFO] - Lising of users completed successfully
+2021-02-28 21:39:04,312 root::test_create_user() [INFO] - Creating the user
+2021-02-28 21:39:04,314 root::test_create_user() [INFO] - Checking POST request response is 200
+2021-02-28 21:39:04,314 root::test_create_user() [INFO] - Checking 'id' in response json
+2021-02-28 21:39:04,314 root::test_create_user() [INFO] - User creation completed successfully
+2021-02-28 21:39:04,321 root::test_retrieve_user() [INFO] - Retrieving user information
+2021-02-28 21:39:04,321 root::test_retrieve_user() [INFO] - Checking GET request response is 200
+2021-02-28 21:39:04,321 root::test_retrieve_user() [INFO] - Checking 'name' in response json
+2021-02-28 21:39:04,321 root::test_retrieve_user() [INFO] - Successfully retrieved user information
+2021-02-28 21:39:04,327 root::test_update_user() [INFO] - Updating the user information
+2021-02-28 21:39:04,328 root::test_update_user() [INFO] - Checking the PUT request response is 200
+2021-02-28 21:39:04,328 root::test_update_user() [INFO] - Checking 'id' in request response json
+2021-02-28 21:39:04,328 root::test_update_user() [INFO] - Successfully updated the user information
+2021-02-28 21:39:04,333 root::test_delete_user() [INFO] - Deleting the user
+2021-02-28 21:39:04,334 root::test_delete_user() [INFO] - Checking DELETE request response is 200
+2021-02-28 21:39:04,334 root::test_delete_user() [INFO] - Successfully deleted the user
+2021-02-28 21:39:04,337 root::test_list_user_conversation() [INFO] - Listing the user conversation
+2021-02-28 21:39:04,338 root::test_list_user_conversation() [INFO] - Checking GET request response is 200
+2021-02-28 21:39:04,338 root::test_list_user_conversation() [INFO] - Checking the 'customer_chat_test' name in response json
+2021-02-28 21:39:04,338 root::test_list_user_conversation() [INFO] - Successfully listed the user conversation
+2021-02-28 21:39:04,341 root::test_list_members() [INFO] - Listing the members
+2021-02-28 21:39:04,342 root::test_list_members() [INFO] - Checking GET request response is 200
+2021-02-28 21:39:04,342 root::test_list_members() [INFO] - Checking 'my_user_name' user name in response json
+2021-02-28 21:39:04,342 root::test_list_members() [INFO] - Successfully listed members
+2021-02-28 21:39:04,345 root::test_create_member() [INFO] - Creating the member
+2021-02-28 21:39:04,347 root::test_create_member() [INFO] - Checking POST request rsponse is 201
+2021-02-28 21:39:04,387 root::test_retrieve_member() [INFO] - Retrieving member
+2021-02-28 21:39:04,388 root::test_retrieve_member() [INFO] - Checking GET request response is 200
+2021-02-28 21:39:04,388 root::test_retrieve_member() [INFO] - Checking 'id' in response json
+2021-02-28 21:39:04,388 root::test_retrieve_member() [INFO] - Successfully retrieved member
+2021-02-28 21:39:04,390 root::test_update_member() [INFO] - Updating the member
+2021-02-28 21:39:04,390 root::test_update_member() [INFO] - Checking PUT request response is 200
+2021-02-28 21:39:04,390 root::test_update_member() [INFO] - Checking id in response json
+2021-02-28 21:39:04,390 root::test_update_member() [INFO] - Successfully updated the member
+2021-02-28 21:39:04,394 root::test_delete_member() [INFO] - Deleting the member
+2021-02-28 21:39:04,394 root::test_delete_member() [INFO] - Checking DELETE request response is 200
+2021-02-28 21:39:04,394 root::test_delete_member() [INFO] - Successfully deleted the member
+2021-02-28 21:39:04,396 root::test_list_events() [INFO] - Listing the events
+2021-02-28 21:39:04,396 root::test_list_events() [INFO] - Checking GET request response is 200
+2021-02-28 21:39:04,396 root::test_list_events() [INFO] - Checking 'text' in response json
+2021-02-28 21:39:04,396 root::test_list_events() [INFO] - Successfully completed listing of the events
+2021-02-28 21:39:04,399 root::test_create_event() [INFO] - Creating the event
+2021-02-28 21:39:04,399 root::test_create_event() [INFO] - Checking POST request response is 201
+2021-02-28 21:39:04,412 root::test_retrieve_event() [INFO] - Retrieving the event
+2021-02-28 21:39:04,413 root::test_retrieve_event() [INFO] - Checking GET request response is 200
+2021-02-28 21:39:04,413 root::test_retrieve_event() [INFO] - Checking 'type' in response json
+2021-02-28 21:39:04,413 root::test_retrieve_event() [INFO] - Successfully retrieved the event
+2021-02-28 21:39:04,416 root::test_delete_event() [INFO] - Deleting the event
+2021-02-28 21:39:04,416 root::test_delete_event() [INFO] - Checking DELETE request response is 200
+2021-02-28 21:39:04,416 root::test_delete_event() [INFO] - Successfully deleted the event
+2021-02-28 21:39:04,419 root::test_list_legs() [INFO] - Listing the legs
+2021-02-28 21:39:04,419 root::test_list_legs() [INFO] - Checking GET request response is 200
+2021-02-28 21:39:04,419 root::test_list_legs() [INFO] - Checking leg uuid in response json
+2021-02-28 21:39:04,419 root::test_list_legs() [INFO] - Successfully completed the listing of the legs
+2021-02-28 21:39:04,422 root::test_delete_leg() [INFO] - Deleting the leg
+2021-02-28 21:39:04,422 root::test_delete_leg() [INFO] - Checking DELETE request response is 200
+2021-02-28 21:39:04,422 root::test_delete_leg() [INFO] - Successfully deleted the leg
