@@ -1,0 +1,15 @@
+[
+    {
+      "name": "customer_chat_test",
+      "image_url": "https://example.com/image.png",
+      "display_name": "Customer Chat Test",
+      "state": "invited",
+      "member_id": "MEM-63f61863-4a51-4f6b-86e1-46edebio0391",
+      "sequence_number": "123",
+      "href": "https://api.nexmo.com/v0.1/conversations/CON-63f61863-4a51-4f6b-86e1-46edebio0391",
+      "id": "CON-63f61863-4a51-4f6b-86e1-46edebio0391",
+      "timestamp": {
+        "created": "2020-01-01T14:00:00.00Z"
+      }
+    }
+]

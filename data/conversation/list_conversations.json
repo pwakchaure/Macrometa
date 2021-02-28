@@ -1,0 +1,23 @@
+{
+    "count": "100",
+    "page_size": 50,
+    "record_index": 0,
+    "_links": {
+      "self": {
+        "href": "https://api.nexmo.com/v0.1/conversations?page_size=2&record_index=10&"
+      }
+    },
+    "_embedded": {
+      "conversations": [
+        {
+          "uuid": "CON-63f61863-4a51-4f6b-86e1-46edebio0391",
+          "name": "customer_chat_test",
+          "_links": {
+            "self": {
+              "href": "https://api.nexmo.com/v0.1/conversations/CON-63f61863-4a51-4f6b-86e1-46edebio0391"
+            }
+          }
+        }
+      ]
+    }
+  }

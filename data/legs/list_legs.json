@@ -1,0 +1,26 @@
+{
+    "count": "100",
+    "page_size": 50,
+    "record_index": 0,
+    "_links": {
+      "self": {
+        "href": "abc123"
+      }
+    },
+    "_embedded": {
+      "legs": [
+        {
+          "uuid": "a595959595959595995",
+          "type": "phone",
+          "conversation_uuid": "CON-63f61863-4a51-4f6b-86e1-46edebio0391",
+          "state": "terminated",
+          "from": {},
+          "to": {},
+          "start_time": "2020-01-01T14:00:00.00Z",
+          "start_end": "2020-01-01T14:00:00.00Z",
+          "_links": {},
+          "_embedded": {}
+        }
+      ]
+    }
+}
